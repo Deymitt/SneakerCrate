@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop - SneakerCrate</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="shop-body">  
+
+    <!-- Navigation Bar -->
+    <header>
+        <h1>SneakerCrate</h1>
+        <input type="text" placeholder="Search for sneakers..." class="search-bar">
+        <a href="cart.html" class="cart-btn">🛒 Cart</a>
+    </header>
+
+    <div class="shop-container">
+        <!-- Sidebar for Filters -->
+        <aside class="filter-sidebar">
+            <h2>Filter by Brand</h2>
+            <ul>
+                <li><input type="checkbox" value="Nike"> Nike</li>
+                <li><input type="checkbox" value="Adidas"> Adidas</li>
+                <li><input type="checkbox" value="Puma"> Puma</li>
+                <li><input type="checkbox" value="New Balance"> New Balance</li>
+                <li><input type="checkbox" value="Converse"> Converse</li>
+            </ul>
+        </aside>
+
+        <!-- Product Grid -->
+        <section class="product-grid">
+            <div class="product-card">
+                <img src="images/shoes1.png" alt="Nike Air Max">
+                <h3 class="product-title">Nike Air Max</h3>
+                <p class="product-price"><span class="discounted-price">₱4,339</span> <span class="original-price">₱6,195</span> <span class="discount">29% off</span></p>
+                <button class="add-to-cart" data-name="Nike Air Max" data-price="4339">Add to Cart</button>
+            </div>
+
+            <div class="product-card">
+                <img src="images/shoes2.png" alt="Adidas UltraBoost">
+                <h3 class="product-title">Adidas UltraBoost</h3>
+                <p class="product-price"><span class="discounted-price">₱5,200</span> <span class="original-price">₱6,500</span> <span class="discount">20% off</span></p>
+                <button class="add-to-cart" data-name="Adidas UltraBoost" data-price="5200">Add to Cart</button>
+            </div>
+
+            <div class="product-card">
+                <img src="images/shoes3.png" alt="Puma RS-X">
+                <h3 class="product-title">Puma RS-X</h3>
+                <p class="product-price"><span class="discounted-price">₱4,000</span> <span class="original-price">₱5,000</span> <span class="discount">20% off</span></p>
+                <button class="add-to-cart" data-name="Puma RS-X" data-price="4000">Add to Cart</button>
+            </div>
+
+            <div class="product-card">
+                <img src="images/shoes4.png" alt="New Balance 550">
+                <h3 class="product-title">New Balance 550</h3>
+                <p class="product-price"><span class="discounted-price">₱6,000</span> <span class="original-price">₱7,500</span> <span class="discount">20% off</span></p>
+                <button class="add-to-cart" data-name="New Balance 550" data-price="6000">Add to Cart</button>
+            </div>
+
+            <div class="product-card">
+                <img src="images/shoes5.png" alt="Nike Dunk Low">
+                <h3 class="product-title">Nike Dunk Low</h3>
+                <p class="product-price"><span class="discounted-price">₱5,500</span> <span class="original-price">₱6,900</span> <span class="discount">25% off</span></p>
+                <button class="add-to-cart" data-name="Nike Dunk Low" data-price="5500">Add to Cart</button>
+            </div>
+
+            <div class="product-card">
+                <img src="images/shoes6.png" alt="Adidas Forum Low">
+                <h3 class="product-title">Adidas Forum Low</h3>
+                <p class="product-price"><span class="discounted-price">₱4,700</span> <span class="original-price">₱5,900</span> <span class="discount">20% off</span></p>
+                <button class="add-to-cart" data-name="Adidas Forum Low" data-price="4700">Add to Cart</button>
+            </div>
+
+            <div class="product-card">
+                <img src="images/shoes7.png" alt="Converse Run Star Hike">
+                <h3 class="product-title">Converse Run Star Hike</h3>
+                <p class="product-price"><span class="discounted-price">₱6,300</span> <span class="original-price">₱7,900</span> <span class="discount">20% off</span></p>
+                <button class="add-to-cart" data-name="Converse Run Star Hike" data-price="6300">Add to Cart</button>
+            </div>
+
+            <div class="product-card">
+                <img src="images/shoes8.png" alt="Vans Old Skool">
+                <h3 class="product-title">Vans Old Skool</h3>
+                <p class="product-price"><span class="discounted-price">₱3,500</span> <span class="original-price">₱4,500</span> <span class="discount">22% off</span></p>
+                <button class="add-to-cart" data-name="Vans Old Skool" data-price="3500">Add to Cart</button>
+            </div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

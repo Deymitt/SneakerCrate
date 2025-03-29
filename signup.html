@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up - SneakerCrate</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="login-body">  <!-- Same background as login -->
+    <div class="signup-container">
+        <h2>Create an Account</h2>
+        <form action="shop.html">  <!-- Redirects to shop after sign-up -->
+            <input type="text" placeholder="Full Name" required>
+            <input type="email" placeholder="Email" required>
+            <input type="password" placeholder="Password" required>
+            <input type="password" placeholder="Confirm Password" required>
+            <button type="submit">Sign Up</button>
+        </form>
+        <p>Already have an account? <a href="login.html">Login</a></p>
+        <button class="back-btn" onclick="window.location.href='login.html'">← Back</button>
+    </div>
+</body>
+</html>

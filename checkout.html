@@ -1,0 +1,40 @@
+<link rel="stylesheet" href="styles.css">
+<div class="checkout-container">
+    <div class="checkout-header">
+        <h1>Checkout</h1>
+    </div>
+
+    <form class="checkout-form">
+        <div class="form-group">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" placeholder="Enter your full name" required>
+        </div>
+
+        <div class="form-group">
+            <label for="address">Shipping Address</label>
+            <textarea id="address" placeholder="Enter your address" required></textarea>
+        </div>
+
+        <div class="form-group">
+            <label for="payment">Payment Method</label>
+            <div class="payment-method">
+                <label><input type="radio" name="payment" value="credit" required> Credit Card</label>
+                <label><input type="radio" name="payment" value="paypal" required> PayPal</label>
+                <label><input type="radio" name="payment" value="cod" required> Cash on Delivery</label>
+            </div>
+        </div>
+
+        <div class="order-summary">
+            <h2>Order Summary</h2>
+            <div class="order-item">
+                <span>Product Name</span>
+                <span>$99.99</span>
+            </div>
+            <div class="order-total">
+                Total: $99.99
+            </div>
+        </div>
+
+        <button class="checkout-btn">Place Order</button>
+    </form>
+</div>
